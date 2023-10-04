@@ -1,0 +1,32 @@
+{
+  "name": "automation-engine",
+  "version": "1.0.0",
+  "description": "This is going to be a node app runned as cronjob.",
+  "main": "dist/index.js",
+  "module": "es2022",
+  "target": "es2022",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "cronjob",
+    "actions",
+    "rest"
+  ],
+  "author": "Corneliu I.",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/luxon": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "luxon": "^3.4.3"
+  }
+}
